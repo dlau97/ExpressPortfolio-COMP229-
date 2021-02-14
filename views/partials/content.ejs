@@ -1,3 +1,4 @@
+    
     <!-- Main Content-->
     <main>
         <div class="jumbotron">
@@ -32,9 +33,39 @@
     <% }  %>
 
     <% if (title == "Services") { %>
-        <div>
-        services
-        <div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Assets/images/programming.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>General Programming</h5>
+                        <p class="card-text">My strongest programming languages includes Java, C++, C# and Python.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Assets/images/unity.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>Unity</h5>
+                        <p class="card-text">I have developed various games using the Unity game engine over the past 3 years. All programming is in C#.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="/Assets/images/davinci_resolve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5>Video Editing</h5>
+                        <p class="card-text">Video editing has become a part-time passion of mine. I have experience editing using Davinci Resolve.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
     <% } %>
 
     <% if (title == "Contact") { %>
