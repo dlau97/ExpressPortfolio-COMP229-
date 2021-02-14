@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-  <!-- CSS Section -->
-  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
-  <link rel='stylesheet' href='/Content/app.css' />
+<%- include  partials/header.ejs %>
 
-</head>
-<body>
-  <!-- Main Navigation -->
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">Dhevan Lau's Portfolio Site</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="/home"><i class="fas fa-home"></i> Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/aboutme"><i class="fas fa-info-circle"></i> About Me</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/projects"><i class="fas fa-tasks"></i> Projects</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/services"><i class="fas fa-cog"></i> Services</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="/contact"><i class="fas fa-phone-alt"></i> Contact</a>
-        </li>
-    </div>
-  </nav>
+<%- include partials/main_nav.ejs %>
 
   <!-- Main Content-->
   <main>
@@ -52,10 +9,8 @@
     </div>
   </main>
 
+<%- include partials/bottom_nav.ejs %>
 
-  <!-- Script Section -->
-  <script src="/jquery/dist/jquery.min.js"></script>
-  <script src="/boostrap/dist/js/bootstrap.min.js"></script>
-  <script src="/Scripts/app.js"></script>
-</body>
-</html>
+
+<%- include partials/footer.ejs %>
+
